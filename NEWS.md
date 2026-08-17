@@ -1,7 +1,8 @@
 # StateSpaceSIR 1.1.0
 
-Version used for Romero et al. (in review), *Accounting for depensation in the
-population dynamics of southern right whales in the southwestern Atlantic Ocean*.
+Version used for Romero et al. (in review, *Ecology*), *Accounting for
+depensation in the population dynamics of southern right whales in the
+southwestern Atlantic Ocean*.
 
 ## Depensation
 

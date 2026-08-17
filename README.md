@@ -120,7 +120,7 @@ Models must share a likelihood to be comparable.
 
 * Romero et al. (2022), southern right whales, southwestern Atlantic —
   [code and data](https://github.com/SW-atlantic-right-whale-2021-assessment)
-* Romero et al. (in review), depensation in southern right whales —
+* Romero et al. (in review, *Ecology*), depensation in southern right whales —
   [DepensationRuns](https://github.com/SW-atlantic-right-whale-assessment/DepensationRuns)
 
 ## Citation
