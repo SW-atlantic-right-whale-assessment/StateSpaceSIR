@@ -63,11 +63,11 @@ summary_table <- function( SIR, file_name = NULL){
     if(SIR$inputs$allee_model == 0){
         output_vars <- c("r_max", "K", "z", "Pmsy", "var_N", "Nmin", "Max_Dep", paste0("q_IA1", 1:num.IA), paste0("q_IA2", 1:num.IA), "add_VAR_IA")
         trajectory_vars <- c( paste0("N_", years), paste0("status", years))
-        vars_latex <- c("$r_{max}$", "$K$", "$z$", "$Pmsy$","$sigma$", "$N_{min}$",  "Max depletion", paste0("$q_{flt", 1:num.IA, "}$"), paste0("$\beta_{q_{flt", 1:num.IA,"}}$"), "$sigma_q$", paste0("$N_{", years, "}$"), paste0("Depletion in ", years))
+        vars_latex <- c("$r_{max}$", "$K$", "$z$", "$Pmsy$","$sigma$", "$N_{min}$",  "Max depletion", paste0("$q_{flt", 1:num.IA, "}$"), paste0("$\\beta_{q_{flt", 1:num.IA,"}}$"), "$sigma_q$", paste0("$N_{", years, "}$"), paste0("Depletion in ", years))
     } else{
         output_vars <- c("r_max", "K", "z", "Pmsy", "P50","var_N", "Nmin", "Max_Dep", paste0("q_IA1", 1:num.IA), paste0("q_IA2", 1:num.IA), "add_VAR_IA")
         trajectory_vars <- c( paste0("N_", years), paste0("status", years))
-        vars_latex <- c("$r_{max}$", "$K$", "$z$", "$Pmsy$", "$P_{50}$","$sigma$", "$N_{min}$",  "Max depletion", paste0("$q_{flt", 1:num.IA, "}$"), paste0("$\beta_{q_{flt", 1:num.IA,"}}$"), "$sigma_q$", paste0("$N_{", years, "}$"), paste0("Depletion in ", years))
+        vars_latex <- c("$r_{max}$", "$K$", "$z$", "$Pmsy$", "$P_{50}$","$sigma$", "$N_{min}$",  "Max depletion", paste0("$q_{flt", 1:num.IA, "}$"), paste0("$\\beta_{q_{flt", 1:num.IA,"}}$"), "$sigma_q$", paste0("$N_{", years, "}$"), paste0("Depletion in ", years))
     }
 
 
