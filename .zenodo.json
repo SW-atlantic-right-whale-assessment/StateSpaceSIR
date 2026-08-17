@@ -6,11 +6,27 @@
   "license": "mit",
   "creators": [
     {
+      "name": "Romero, Maria Alejandra",
+      "affiliation": "Escuela Superior de Ciencias Marinas, Universidad Nacional del Comahue; CIMAS, CONICET, Argentina"
+    },
+    {
       "name": "Adams, Grant D.",
       "affiliation": "School of Aquatic and Fishery Sciences, University of Washington, Seattle, WA, USA"
     },
     {
       "name": "Best, John K."
+    },
+    {
+      "name": "Coscarella, Mariano A.",
+      "affiliation": "CESIMAR, CENPAT-CONICET; Universidad Nacional de la Patagonia San Juan Bosco, Argentina"
+    },
+    {
+      "name": "González, Raúl A.",
+      "affiliation": "Escuela Superior de Ciencias Marinas, Universidad Nacional del Comahue; CIMAS, CONICET, Argentina"
+    },
+    {
+      "name": "Crespo, Enrique A.",
+      "affiliation": "CESIMAR, CENPAT-CONICET; Universidad Nacional de la Patagonia San Juan Bosco, Argentina"
     }
   ],
   "keywords": [

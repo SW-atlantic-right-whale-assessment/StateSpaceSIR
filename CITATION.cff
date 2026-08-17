@@ -26,6 +26,10 @@ keywords:
 
 # TODO before minting the DOI: add ORCIDs.
 authors:
+  - family-names: Romero
+    given-names: "Maria Alejandra"
+    affiliation: "Escuela Superior de Ciencias Marinas, Universidad Nacional del Comahue; CIMAS, CONICET, Argentina"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
   - family-names: Adams
     given-names: "Grant D."
     email: adamsgd@uw.edu
@@ -34,6 +38,18 @@ authors:
   - family-names: Best
     given-names: "John K."
     email: jkbest@gmail.com
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Coscarella
+    given-names: "Mariano A."
+    affiliation: "CESIMAR, CENPAT-CONICET; Universidad Nacional de la Patagonia San Juan Bosco, Argentina"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: González
+    given-names: "Raúl A."
+    affiliation: "Escuela Superior de Ciencias Marinas, Universidad Nacional del Comahue; CIMAS, CONICET, Argentina"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Crespo
+    given-names: "Enrique A."
+    affiliation: "CESIMAR, CENPAT-CONICET; Universidad Nacional de la Patagonia San Juan Bosco, Argentina"
     # orcid: "https://orcid.org/0000-0000-0000-0000"
 
 references:

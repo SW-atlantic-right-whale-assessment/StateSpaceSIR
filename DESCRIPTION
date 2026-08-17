@@ -3,8 +3,12 @@ Type: Package
 Title: State-Space Surplus Production Models Fitted by Sampling-Importance-Resampling
 Version: 1.1.0
 Authors@R: c(
-    person("Grant", "Adams", email = "adamsgd@uw.edu", role = c("cre", "aut")),
-    person("John", "Best", email = "jkbest@gmail.com", role = "aut"))
+    person("Maria Alejandra", "Romero", role = "aut"),
+    person("Grant D.", "Adams", email = "adamsgd@uw.edu", role = c("cre", "aut")),
+    person("John K.", "Best", email = "jkbest@gmail.com", role = "aut"),
+    person("Mariano A.", "Coscarella", role = "aut"),
+    person("Raúl A.", "González", role = "aut"),
+    person("Enrique A.", "Crespo", role = "aut"))
 Description: Fits Bayesian state-space generalized logistic (surplus production)
     models using the sampling-importance-resampling (SIR) algorithm of
     McAllister et al. (1994), following Zerbini et al. (2011, 2019) and Romero

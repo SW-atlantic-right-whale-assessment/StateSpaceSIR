@@ -3,8 +3,12 @@ citHeader("To cite StateSpaceSIR in publications, please cite both the software 
 bibentry(
   bibtype  = "Manual",
   title    = "StateSpaceSIR: state-space surplus production models fitted by sampling-importance-resampling",
-  author   = c(person("Grant", "D. Adams"),
-               person("John", "K. Best")),
+  author   = c(person("M. A.", "Romero"),
+               person("G. D.", "Adams"),
+               person("J. K.", "Best"),
+               person("M. A.", "Coscarella"),
+               person("R. A.", "Gonzalez"),
+               person("E. A.", "Crespo")),
   year     = "2026",
   note     = "R package version 1.1.0",
   url      = "https://github.com/SW-atlantic-right-whale-assessment/StateSpaceSIR"
