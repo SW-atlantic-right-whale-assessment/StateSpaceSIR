@@ -149,15 +149,16 @@ approach to stock assessment and harvest decisions using the
 sampling/importance resampling algorithm. *Canadian Journal of Fisheries and
 Aquatic Sciences* 51:2673–2687.
 
-Romero, M. A., M. A. Coscarella, G. D. Adams, J. C. Pedraza, and R. A. González.
-2022. Historical reconstruction of the population dynamics of southern right
-whales in the southwestern Atlantic Ocean. *Scientific Reports* 12:3324.
+Romero, M. A., M. A. Coscarella, G. D. Adams, J. C. Pedraza, R. A. González, and
+E. A. Crespo. 2022. Historical reconstruction of the population dynamics of
+southern right whales in the southwestern Atlantic Ocean. *Scientific Reports*
+12:3324.
 
-Zerbini, A. N., E. Ward, M. Engel, A. Andriolo, and P. G. Kinas. 2011. A Bayesian
-assessment of the conservation status of humpback whales (*Megaptera
+Zerbini, A. N., E. J. Ward, P. G. Kinas, M. H. Engel, and A. Andriolo. 2011. A
+Bayesian assessment of the conservation status of humpback whales (*Megaptera
 novaeangliae*) in the western South Atlantic Ocean. *Journal of Cetacean Research
 and Management* (Special Issue 3):131–144.
 
-Zerbini, A. N., G. D. Adams, J. K. Best, P. J. Clapham, J. A. Jackson, and A. E.
-Punt. 2019. Assessing the recovery of an Antarctic predator from historical
-exploitation. *Royal Society Open Science* 6:190368.
+Zerbini, A. N., G. Adams, J. Best, P. J. Clapham, J. A. Jackson, and A. E. Punt.
+2019. Assessing the recovery of an Antarctic predator from historical
+exploitation. *Royal Society Open Science* 6(10):190368.

@@ -42,6 +42,7 @@ references:
     doi: "10.1038/s41598-022-07370-6"
     journal: "Scientific Reports"
     volume: 12
+    start: 3324
     year: 2022
     authors:
       - family-names: Romero
@@ -54,6 +55,8 @@ references:
         given-names: "J. C."
       - family-names: González
         given-names: "R. A."
+      - family-names: Crespo
+        given-names: "E. A."
   - type: article
     title: "A Bayesian approach to stock assessment and harvest decisions using the sampling/importance resampling algorithm"
     doi: "10.1139/f94-267"
