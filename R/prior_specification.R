@@ -1,4 +1,4 @@
-##' Generate a prior for use in the Humpback SIR
+##' Generate a prior for use in StateSpaceSIR
 ##'
 ##' Convenient way to generate a prior that can be used to generate samples for
 ##' the SIR.

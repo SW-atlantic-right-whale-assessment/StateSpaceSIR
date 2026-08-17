@@ -3,7 +3,7 @@
 # in Zerbini et al. (2011)
 # Adapted by Grant Adams and John Best for Zerbini et al. 2019
 
-#' HUMPBACK SIR controls the sampling from the priors, the bisection and
+#' StateSpaceSIR controls the sampling from the priors, the bisection and
 #' likelihoods and the output functions
 #'
 #' @param file_name name of a file to identified the files exported by the

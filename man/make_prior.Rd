@@ -2,7 +2,7 @@
 % Please edit documentation in R/prior_specification.R
 \name{make_prior}
 \alias{make_prior}
-\title{Generate a prior for use in the Humpback SIR}
+\title{Generate a prior for use in StateSpaceSIR}
 \usage{
 make_prior(
   rfn = NA,

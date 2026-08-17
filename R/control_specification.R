@@ -30,7 +30,7 @@
 ##'
 ##' }
 ##'
-##' @return A list to be passed to the \code{control} argument of \code{HUMPBACK.SIR}.
+##' @return A list to be passed to the \code{control} argument of \code{StateSpaceSIR}.
 sir_control <- function(K_bisect_lims = c(1, 5e5),
                         K_bisect_tol = 1e-4,
                         threshold = 1e-17,

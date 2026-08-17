@@ -45,7 +45,7 @@ intermediate
 }}
 }
 \value{
-A list to be passed to the \code{control} argument of \code{HUMPBACK.SIR}.
+A list to be passed to the \code{control} argument of \code{StateSpaceSIR}.
 }
 \description{
 Set fitting parameters for SIR with reasonable defaults.

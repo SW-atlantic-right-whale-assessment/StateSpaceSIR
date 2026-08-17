@@ -2,7 +2,7 @@
 % Please edit documentation in R/run_SIR.R
 \name{StateSpaceSIR}
 \alias{StateSpaceSIR}
-\title{HUMPBACK SIR controls the sampling from the priors, the bisection and
+\title{StateSpaceSIR controls the sampling from the priors, the bisection and
 likelihoods and the output functions}
 \usage{
 StateSpaceSIR(
@@ -108,7 +108,7 @@ make_prior_list(r_max = make_prior(runif, 0, 0.118),
  make_multiplier_list(c_mult_1 = make_prior(1))}
 }
 \description{
-HUMPBACK SIR controls the sampling from the priors, the bisection and
+StateSpaceSIR controls the sampling from the priors, the bisection and
 likelihoods and the output functions
 }
 \examples{
