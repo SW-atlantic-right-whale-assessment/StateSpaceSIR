@@ -1,0 +1,74 @@
+cff-version: 1.2.0
+title: "StateSpaceSIR: state-space surplus production models fitted by sampling-importance-resampling"
+message: "If you use this software, please cite it, along with Romero et al. (2022) for the modelling framework."
+type: software
+license: MIT
+version: 1.1.0
+date-released: "2026-08-17"
+repository-code: "https://github.com/SW-atlantic-right-whale-assessment/StateSpaceSIR"
+abstract: >-
+  An R package that fits Bayesian state-space generalized logistic (surplus
+  production) models using the sampling-importance-resampling algorithm of
+  McAllister et al. (1994). Combines catch series with absolute and relative
+  abundance indices, supports multivariate lognormal index likelihoods with
+  analytically integrated catchability, and implements four parameterisations of
+  a demographic Allee effect. Provides model averaging by Bayes factor, WAIC,
+  and plotting and summary methods.
+keywords:
+  - Bayesian state-space model
+  - surplus production
+  - sampling-importance-resampling
+  - Allee effect
+  - depensation
+  - stock assessment
+  - population dynamics
+  - R
+
+# TODO before minting the DOI: add ORCIDs.
+authors:
+  - family-names: Adams
+    given-names: "Grant D."
+    email: adamsgd@uw.edu
+    affiliation: "School of Aquatic and Fishery Sciences, University of Washington, Seattle, WA, USA"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Best
+    given-names: "John K."
+    email: jkbest@gmail.com
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+
+references:
+  - type: article
+    title: "Historical reconstruction of the population dynamics of southern right whales in the southwestern Atlantic Ocean"
+    doi: "10.1038/s41598-022-07370-6"
+    journal: "Scientific Reports"
+    volume: 12
+    start: 3324
+    year: 2022
+    authors:
+      - family-names: Romero
+        given-names: "M. A."
+      - family-names: Coscarella
+        given-names: "M. A."
+      - family-names: Adams
+        given-names: "G. D."
+      - family-names: Pedraza
+        given-names: "J. C."
+      - family-names: González
+        given-names: "R. A."
+      - family-names: Crespo
+        given-names: "E. A."
+  - type: article
+    title: "A Bayesian approach to stock assessment and harvest decisions using the sampling/importance resampling algorithm"
+    doi: "10.1139/f94-267"
+    journal: "Canadian Journal of Fisheries and Aquatic Sciences"
+    volume: 51
+    year: 1994
+    authors:
+      - family-names: McAllister
+        given-names: "M. K."
+      - family-names: Pikitch
+        given-names: "E. K."
+      - family-names: Punt
+        given-names: "A. E."
+      - family-names: Hilborn
+        given-names: "R."

@@ -1,2 +1,10 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^\.zenodo\.json$
+^CITATION\.cff$
+^LICENSE\.md$
+^README\.md$
+^data-raw$
+^examples$
+^R/dev$
+^\.DS_Store$

@@ -1,0 +1,27 @@
+citHeader("To cite StateSpaceSIR in publications, please cite both the software and the paper describing the modelling framework:")
+
+bibentry(
+  bibtype  = "Manual",
+  title    = "StateSpaceSIR: state-space surplus production models fitted by sampling-importance-resampling",
+  author   = c(person("Grant", "D. Adams"),
+               person("John", "K. Best")),
+  year     = "2026",
+  note     = "R package version 1.1.0",
+  url      = "https://github.com/SW-atlantic-right-whale-assessment/StateSpaceSIR"
+)
+
+bibentry(
+  bibtype  = "Article",
+  title    = "Historical reconstruction of the population dynamics of southern right whales in the southwestern Atlantic Ocean",
+  author   = c(person("M. A.", "Romero"),
+               person("M. A.", "Coscarella"),
+               person("G. D.", "Adams"),
+               person("J. C.", "Pedraza"),
+               person("R. A.", "Gonzalez"),
+               person("E. A.", "Crespo")),
+  journal  = "Scientific Reports",
+  year     = "2022",
+  volume   = "12",
+  pages    = "3324",
+  doi      = "10.1038/s41598-022-07370-6"
+)

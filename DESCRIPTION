@@ -1,22 +1,29 @@
 Package: StateSpaceSIR
 Type: Package
-Title: Use Sample-Importance-Resampling to Estimate Southwestern Atlantic Right Whale Abundance
-Version: 1.0.0.0000
+Title: State-Space Surplus Production Models Fitted by Sampling-Importance-Resampling
+Version: 1.1.0
 Authors@R: c(
     person("Grant", "Adams", email = "adamsgd@uw.edu", role = c("cre", "aut")),
     person("John", "Best", email = "jkbest@gmail.com", role = "aut"))
-Description: Combine multiple sources of data to estimate the abundance
-    of Right whales in the Southwestern Atlantic Ocean.
-    Uses Sample-Importance-Resampling to draw samples from the
-    posterior distribution.
-License: What license is it under?
-URL: https://github.com/SW-atlantic-right-whale-2021-assessment/StateSpaceSIR
-BugReports: https://github.com/SW-atlantic-right-whale-2021-assessment/StateSpaceSIR/issues
+Description: Fits Bayesian state-space generalized logistic (surplus production)
+    models using the sampling-importance-resampling (SIR) algorithm of
+    McAllister et al. (1994), following Zerbini et al. (2011, 2019) and Romero
+    et al. (2022). Combines catch series with absolute and relative abundance
+    indices, supports multivariate lognormal index likelihoods with analytically
+    integrated catchability, and provides four parameterisations of a
+    demographic Allee effect (depensation). Includes model averaging by Bayes
+    factor, WAIC, and plotting and summary methods. Developed for southern right
+    whales (Eubalaena australis) in the southwestern Atlantic Ocean but
+    applicable to other depleted populations.
+License: MIT + file LICENSE
+URL: https://github.com/SW-atlantic-right-whale-assessment/StateSpaceSIR
+BugReports: https://github.com/SW-atlantic-right-whale-assessment/StateSpaceSIR/issues
 Encoding: UTF-8
 LazyData: true
 Depends:
+    R (>= 4.0),
     invgamma
-Imports: 
+Imports:
     Rcpp (>= 0.12.16),
     latex2exp,
     EnvStats,
@@ -24,4 +31,6 @@ Imports:
     Matrix,
     MASS
 LinkingTo: Rcpp
+Suggests:
+    testthat (>= 3.0.0)
 RoxygenNote: 7.1.1

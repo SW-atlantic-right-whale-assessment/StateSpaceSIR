@@ -1,0 +1,34 @@
+{
+  "title": "StateSpaceSIR: state-space surplus production models fitted by sampling-importance-resampling",
+  "upload_type": "software",
+  "description": "<p>An R package that fits Bayesian state-space generalized logistic (surplus production) models using the sampling-importance-resampling algorithm of McAllister et al. (1994), following Zerbini et al. (2011, 2019) and Romero et al. (2022).</p><p>Combines catch series with absolute and relative abundance indices, supports multivariate lognormal index likelihoods with analytically integrated catchability, and implements four parameterisations of a demographic Allee effect (depensation). Provides model averaging by Bayes factor, WAIC, and plotting and summary methods.</p><p>Developed for southern right whales (<i>Eubalaena australis</i>) in the southwestern Atlantic Ocean, but applicable to other depleted populations.</p>",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Adams, Grant D.",
+      "affiliation": "School of Aquatic and Fishery Sciences, University of Washington, Seattle, WA, USA"
+    },
+    {
+      "name": "Best, John K."
+    }
+  ],
+  "keywords": [
+    "Bayesian state-space model",
+    "surplus production",
+    "sampling-importance-resampling",
+    "Allee effect",
+    "depensation",
+    "stock assessment",
+    "population dynamics",
+    "R package"
+  ],
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41598-022-07370-6",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
+}
